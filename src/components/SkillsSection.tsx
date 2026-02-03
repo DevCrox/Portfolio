@@ -5,39 +5,39 @@ const skillCategories = [
   {
     title: "Frontend",
     skills: [
-      { name: "React", level: 95 },
-      { name: "TypeScript", level: 90 },
-      { name: "Next.js", level: 88 },
-      { name: "Tailwind CSS", level: 92 },
-      { name: "Vue.js", level: 75 },
+      { name: "CSS", level: 95 },
+      { name: "SCSS/SASS", level: 95 },
+      { name: "Next.js", level: 0 },
+      { name: "React", level: 0 },
+      { name: "Vue.js", level: 0 },
     ],
   },
   {
     title: "Backend",
     skills: [
-      { name: "Node.js", level: 88 },
-      { name: "Python", level: 80 },
-      { name: "PostgreSQL", level: 85 },
-      { name: "GraphQL", level: 78 },
-      { name: "REST APIs", level: 92 },
+      { name: "Python", level: 100 },
+      { name: "MySQL", level: 90 },
+      { name: "REST APIs", level: 90 },
+      { name: "Javascript", level: 85 },
+      { name: "Node.js", level: 0 },
     ],
   },
   {
     title: "Tools & Others",
     skills: [
-      { name: "Git", level: 90 },
-      { name: "Docker", level: 75 },
-      { name: "AWS", level: 70 },
-      { name: "Figma", level: 82 },
-      { name: "CI/CD", level: 78 },
+      { name: "Git", level: 100 },
+      { name: "Figma", level: 100 },
+      { name: "Context Engineering", level: 80 },
+      { name: "AWS", level: 33 },
+      { name: "Docker", level: 20 },
     ],
   },
 ];
 
 const technologies = [
-  "React", "Next.js", "TypeScript", "Node.js", "Python", "PostgreSQL",
-  "MongoDB", "Redis", "Docker", "Kubernetes", "AWS", "GCP",
-  "GraphQL", "REST", "Tailwind", "Sass", "Figma", "Git",
+  "TypeScript", "Javascript", "Python", "MySQL",
+  "SQLite3", "Docker", "AWS", "CSS",
+  "SASS", "SCSS", "REST", "Figma", "Git",
 ];
 
 export function SkillsSection() {

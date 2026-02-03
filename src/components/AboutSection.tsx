@@ -5,32 +5,25 @@ import { Calendar, MapPin, Briefcase } from "lucide-react";
 
 const timeline = [
   {
-    year: "2023 - Present",
-    title: "Senior Full-Stack Developer",
-    company: "Tech Innovations Inc.",
-    location: "San Francisco, CA",
-    description: "Leading development of enterprise-scale applications using React, Node.js, and cloud technologies. Mentoring junior developers and driving technical decisions.",
-  },
-  {
-    year: "2021 - 2023",
+    year: "2026 - Present",
     title: "Full-Stack Developer",
-    company: "Digital Agency Pro",
-    location: "New York, NY",
-    description: "Built and maintained 20+ client websites and applications. Specialized in React ecosystems and headless CMS integrations.",
+    company: "Independent Developer",
+    location: "Agadir, Morocco",
+    description: "Mentoring young curious developpers while improving my personnal skills in various areas.",
   },
   {
-    year: "2019 - 2021",
-    title: "Frontend Developer",
-    company: "StartupHub",
-    location: "Austin, TX",
-    description: "Developed responsive web applications and contributed to design systems. Collaborated closely with UX designers to implement pixel-perfect interfaces.",
+    year: "2025",
+    title: "Head Developer",
+    company: "Algorithmics Agadir IT Competition (2nd Ed)",
+    location: "Agadir, Morocco",
+    description: "Leader of a team of 10 devs. Responsible of the full developement and presentation of 'Restorino', a web platform connecting tourists with local restaurants. Focused on role-based navigation, usability, and engagement mechanics.",
   },
   {
-    year: "2015 - 2019",
-    title: "Computer Science Degree",
-    company: "MIT",
-    location: "Cambridge, MA",
-    description: "Bachelor's degree in Computer Science with focus on software engineering and human-computer interaction.",
+    year: "2021 - 2024",
+    title: "Python Developer",
+    company: "Independent Developer",
+    location: "Agadir, Morocco",
+    description: "Studying programming fundamentals with a full focus on Python.",
   },
 ];
 
@@ -53,8 +46,8 @@ export function AboutSection() {
             My Journey
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            From curiosity to expertise — here's my story of building digital experiences
-            that make a difference.
+            From curiosity to expertise here's my personnal story of building digital experiences
+            that make a difference, and now that I think of it, it's been a long journey.
           </p>
         </motion.div>
 
@@ -68,7 +61,13 @@ export function AboutSection() {
             className="space-y-6"
           >
             <div className="aspect-square max-w-md mx-auto lg:mx-0 rounded-3xl overflow-hidden bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center">
-              <div className="text-8xl">👨‍💻</div>
+              <div className="w-100 h-100">
+                <img
+                src="https://media.licdn.com/dms/image/v2/D5603AQHXVxZaMt0_ZA/profile-displayphoto-crop_800_800/B56ZgLQfH3HcAI-/0/1752535531797?e=1771459200&v=beta&t=Y54J4na6LgKsTis-WfgnufJX7y1xEZqYSBaCavEOHf8"
+                alt="Profile"
+                className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </motion.div>
 
@@ -84,15 +83,14 @@ export function AboutSection() {
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               My journey started with a fascination for how technology shapes our daily lives.
-              Today, I specialize in building scalable web applications using modern frameworks
-              like React, Next.js, and Node.js.
+              Today, I specialize in building scalable web applications using modern frameworks.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing
-              to open-source projects, or sharing knowledge through tech blogs and community talks.
+              When I'm not coding, you'll find me exploring new technologies such as new emerging AI tools, 
+              or sharing knowledge through community talks and free lessons.
             </p>
             <div className="flex flex-wrap gap-3 pt-4">
-              {["Problem Solver", "Team Player", "Fast Learner", "Detail-Oriented"].map((trait) => (
+              {["Problem Solver", "Enthusiastic Programmer", "Fast Learner", "Detail-Oriented"].map((trait) => (
                 <span key={trait} className="tag-pill">{trait}</span>
               ))}
             </div>

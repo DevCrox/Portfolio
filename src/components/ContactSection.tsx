@@ -35,9 +35,9 @@ export function ContactSection() {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "hello@alexchen.dev" },
-    { icon: MapPin, label: "Location", value: "San Francisco, CA" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
+    { icon: Mail, label: "Email", value: "aboulhassan.rayan@gmail.com" },
+    { icon: MapPin, label: "Location", value: "Agadir, Morocco" },
+    { icon: Phone, label: "Phone", value: "+212 694-161926" },
   ];
 
   return (

@@ -3,8 +3,8 @@ import { ArrowDown, Github, Linkedin, Twitter, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/DevCrox", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/rayan-aboulhassan-370174369", label: "LinkedIn" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
 ];
 
@@ -71,7 +71,7 @@ export function HeroSection() {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-6"
           >
             Hi, I'm{" "}
-            <span className="gradient-text">Alex Chen</span>
+            <span className="gradient-text">Aboulhassan Rayan</span>
             <br />
             <span className="text-muted-foreground">Full-Stack Developer</span>
           </motion.h1>

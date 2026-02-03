@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Twitter, Mail, Heart } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/DevCrox", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/rayan-aboulhassan-370174369", label: "LinkedIn" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:hello@alexchen.dev", label: "Email" },
+  { icon: Mail, href: "mailto:aboulhassan.rayan@gmail.com", label: "Email" },
 ];
 
 const footerLinks = [
@@ -71,7 +71,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground flex items-center justify-center gap-1">
-            © {currentYear} Alex Chen. Made with{" "}
+            © {currentYear} Aboulhassan Rayan. Made with {" "}
             <Heart className="h-4 w-4 text-primary fill-primary" /> using React
           </p>
         </div>
